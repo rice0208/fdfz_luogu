@@ -1,5 +1,8 @@
 # FDFZ Luogu
 
+[![MIT License](https://shields.io/github/license/rice0208/fdfz_luogu)](https://github.com/rice0208/fdfz_luogu/blob/master/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 [README in English](https://github.com/rice0208/fdfz_luogu/blob/master/README.md)
 
 这里存放着复旦附中在 [洛谷](https://www.luogu.com.cn) 网站上布置的程序设计作业的答案。
