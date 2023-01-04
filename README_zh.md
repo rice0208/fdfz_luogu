@@ -1,5 +1,7 @@
 # FDFZ Luogu
 
+[README in English](https://github.com/rice0208/fdfz_luogu/blob/master/README.md)
+
 这里存放着复旦附中在 [洛谷](https://www.luogu.com.cn) 网站上布置的程序设计作业的答案。
 
 ## 为什么要创建这个 repo？
