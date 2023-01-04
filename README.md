@@ -1,5 +1,8 @@
 # FDFZ Luogu
 
+[![MIT License](https://shields.io/github/license/rice0208/fdfz_luogu)](https://github.com/rice0208/fdfz_luogu/blob/master/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 [中文版 README](https://github.com/rice0208/fdfz_luogu/blob/master/README_zh.md)
 
 Here comes the answers to problems provided in assignment of FDFZ (High School Affiliated to Fudan University) at [luogu.com.cn](https://www.luogu.com.cn).
