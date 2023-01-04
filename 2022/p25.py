@@ -114,7 +114,7 @@ for i in p:
             affordable += 1
     if affordable > n:
         continue
-    incomes.append((i, affordable*i))
+    incomes.append([i, affordable*i])
 
 ans2 = 0
 for i in incomes:
