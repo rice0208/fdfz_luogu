@@ -73,22 +73,36 @@ FDFZ 应该把价格设定为 $7$，这样会有 $3$ 个农夫会付钱买草料
 """
 
 nm = input().split()
+n = int(nm[0])
+m = int(nm[1])
+
 p = []
-ans = 0
-for i in range(1, int(nm[1]) + 1):
+for _ in range(m):
     p.append(int(input()))
 
-p.sort()
-q = 0
+incomes = []
+for i in p:
+    affordable = 0
+    for j in p:
+        if j >= i:
+            affordable += 1
+    if affordable > n:
+        continue
+    incomes.append((i, affordable*i))
 
-for j in range(len(p)):
-    if len(p) - j <= int(nm[0]):
-        t = p[j] * (len(p) - j)
-    else:
-        t = p[j] * (int(nm[0]))
-    if ans < t:
-        ans = t
-        q = p[j]
-        h = len(p) - j
+ans2 = 0
+for i in incomes:
+    if i[1] > ans2:
+        ans2 = i[1]
 
-print(q, ans)
+max_prices = []
+for i in incomes:
+    if i[1] == ans2:
+        max_prices.append(i[0])
+
+ans1 = max_prices[0]
+for i in max_prices:
+    if i < ans1:
+        ans1 = i
+
+print(ans1, ans2)
