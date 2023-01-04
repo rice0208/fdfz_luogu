@@ -72,6 +72,32 @@ FDFZ 应该把价格设定为 $7$，这样会有 $3$ 个农夫会付钱买草料
 对于样例二：按照从大到小排序后，选前4个或前5个，总盈利都是20，但题目要求售价尽可能低，所以应该选5个，单价是4。
 """
 
+# nm = input().split()
+# p = []
+# ans = 0
+# for i in range(1, int(nm[1]) + 1):
+#     p.append(int(input()))
+#
+# p.sort()
+# q = 0
+#
+# for j in range(len(p)):
+#     if len(p) - j <= int(nm[0]):
+#         t = p[j] * (len(p) - j)
+#     else:
+#         t = p[j] * (int(nm[0]))
+#     if ans < t:
+#         ans = t
+#         q = p[j]
+#         h = len(p) - j
+#
+# print(q, ans)
+
+# solution above called list.sort() method,
+# which is not recommended in python algorithm.
+
+# 复制以下内容：
+
 nm = input().split()
 n = int(nm[0])
 m = int(nm[1])
